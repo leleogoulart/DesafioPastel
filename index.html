@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Pastel</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container"></div>
+        <div class="form_box">
+            <h2 class="title">Monte aqui o seu cardápio. O que está esperando?</h2>
+            <form autocomplete="off" action="" method="get">
+                <input type="text" name="pedido" id="pedido" placeholder="Título do pedido" required minlength="3" maxlength="60">
+                <input type="text" name="sabor" id="sabor" placeholder="Sabor" required minlength="3" maxlength="60">
+                <input type="number" name="valor" id="valor" placeholder="R$" required>
+                <textarea name="message" id="descricao" placeholder="Descrição"></textarea>
+                <input type="image" name="imagem" placeholder="Jogue aqui a imagem">
+                <button type="reset" 
+                class="limpar_botao">LIMPAR</button>
+                <button id="cadastrar_botao" class="cadastrar_botao">CADASTRAR</button>
+            </form>
+        </div>
+</div>
+<ul id="lista">
+</ul>
+
+
+<div class="switch">
+    <input type="checkbox" id="switch" class="switch-input">
+    <label for="switch" class="switch-label">
+      <span class="switch-text-on">Bebida</span>
+      <span class="switch-text-off">Pastel</span>
+    </label>
+  </div>
+        <img src="images/Logo.svg" alt="logo1" class="logo1">
+        <img src="images/pastel-paralax.png" alt="logo2" class="logo2">
+        <img src="images/pasteis-img.png" alt="logo3" class="logo3">
+</body>
+</html>
